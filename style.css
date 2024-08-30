@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  height: 644px;
+  background-image: url(zhero.jpg);
+  background-position: center center;
+  background-size: max(1350px, 100vw);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.box {
+  background-color: black;
+  opacity: 0.64;
+  height: 644px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.nav {
+  height: 72px;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 80vw;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav select{
+  border: none;
+  outline: none;
+}
+
+.language{
+  padding: 2px 0;
+  border: 2px solid white;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.language img{
+  margin: 0 0 -5px 5px;
+}
+.signbtn {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 66px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.langbtn {
+  height: 28px;
+  width: 80px;
+  border-color: white;
+  border-width: 1px;
+  background-color: transparent;
+  border-radius: 3px;
+  color: white;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.selects {
+  color: black;
+}
+
+.herotext {
+  font-family: "Martel Sans", sans-serif;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 90%;
+  color: white;
+  position: relative;
+}
+
+.t1 {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+
+.t2 {
+  padding: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.t3 {
+  padding-bottom: 15px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.separation {
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#emailbox {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: min(80vw, 343px);
+  height: 50px;
+  padding-left: 15px;
+  font-weight: bold;
+  border-width: 1px;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+
+.started {
+  width: min(80vw, 220px);
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(229, 9, 20);
+  border-color: rgb(239, 239, 239);
+  color: rgb(255, 255, 255);
+  border-width: 1px;
+  font-size: 22px;
+  padding: 1px 0 0 0;
+  font-weight: normal;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.image{
+  position: relative;
+
+}
+
+.tvimage {
+  width: 552px;
+  position: relative;
+  z-index: 10;
+
+}
+
+
+.tvvideo {  
+  top: 51px;
+  right: 0;
+  position: absolute;
+} 
+
+ .tvvideo32 {
+  top: 50px;
+  right: 110px;
+  width: 350px;
+} 
+
+
+
+.text11 {
+  font-size: 48px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.text22 {
+  font-size: 24px;
+}
+
+.faqbars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 34px;
+}
+
+.bar {
+  display: flex;
+  height: 21pxpx;
+  justify-content: space-between;
+  width: 74vw;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  font-size: 21px;
+  margin: 5px;
+  text-align: start;
+  padding: 22px;
+}
+
+.barheading {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.faqlatertext {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.links {
+  width: 70vw;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.links div a {
+  color: rgb(162, 162, 162);
+}
+
+.links div {
+  margin: 6px;
+}
+
+.question {
+  color: rgb(162, 162, 162);
+  margin-left: 15vw;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .section {
+    flex-wrap: wrap;
+  }
+
+  .text11 {
+    text-align: center;
+  }
+
+  .text22 {
+    text-align: center;
+  }
+
+  .links {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    width: 90vw;
+  }
+
+  .Questions {
+    margin-left: 3vw;
+  }
+
+  .tvimage {
+    width: 300px;
+  }
+
+  .tvvideo {
+    width: 300px;
+  }
+
+  .tvvideo32 {
+    width: 200px;
+    top: 25px;
+    left: 47px;
+  }
+
+  .text11 {
+    font-size: 34px;
+  }
+
+  .text22 {
+    font-size: 18px;
+  }
+
+  .signbtn {
+    height: 25px;
+    width: 56px;
+    font-size: 10px;
+  }
+
+  .langbtn {
+    height: 25px;
+    width: 75px;
+    font-size: 10px;
+    content: none;
+  }
+
+  .t1 {
+    font-size: 26px;
+    padding:0 10px;
+  }
+
+  .bar{
+    font-size: 18px;
+  }
+  .t2 {
+    font-size: 14px;
+  }
+  .t3{
+    font-size: 17px;
+    padding:0 10px;
+
+  }
+
+  .started{
+    padding: 1px 0 0 0;
+    font-size: 20px;
+  }
+
+  .text11 {
+    font-size: 25px;
+  }
+
+  .barheading {
+    font-size: 25px;
+  }
+
+  .separation {
+    margin-bottom: 100px, 0px;
+  }
+
+  .logosvg {
+    height: 25px;
+  }
+
+  .links {
+    font-size: 13px;
+  }
+
+  .question {
+    margin-left: 4vw;
+  }
+}
